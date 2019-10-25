@@ -24,8 +24,8 @@ html, body, .capa{
 body{
 	background: #04B45F/*#424242*/;
 	/*border: 1px solid red;*/
-	/*background: url('imagens/ nome da imagem'),
-				  url('imagens/nome da imagem'),
+	/*background: url('images/ nome da imagem'),
+				  url('images/nome da imagem'),
 				  linear-gradient(50deg, 'escolher as cores');
 	background-attachment: fixed;*/
 	font-family: Helvetica,Arial,sans-serif;
@@ -37,7 +37,7 @@ body{
 	height: 50px;
 	width: 180px;
 	display: block;
-	background: url('imagens/logo.png') no-repeat;
+	background-image: url(<%= asset_path 'logo.png' %>) no-repeat;
 	/*border: 1px solid red;*/
 	background-size: contain;
 	color: transparent;
